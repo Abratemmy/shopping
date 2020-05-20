@@ -88,6 +88,9 @@ z-index: 1;
 /* .navbar-nav>.navlink.active>a.focus{
     color:red!important;
 } */
+.navbar-toggler{
+    border: none;
+}
 .nav-social{
     display: block;
     margin: 20px 6% 0px 0px;
@@ -171,7 +174,7 @@ color: white;
 }
 .servicecard h5{
     padding-bottom: 10px;
-    
+
 }
 .servicecard p{
     line-height: 30px;
@@ -217,7 +220,9 @@ border-radius: 4%;
 .projectcard4:hover{
     background: linear-gradient(180deg, rgba(219, 10, 91, 1), rgba(240, 7, 7, 0.443)),url('https://res.cloudinary.com/aitechma/image/upload/v1589918673/project4_t9dp7k.png')!important;
 }
-
+.projectcardnews1:hover{
+    background:linear-gradient(180deg, rgba(219, 10, 91, 1), rgba(240, 7, 7, 0.443)),url('https://res.cloudinary.com/aitechma/image/upload/v1589918621/news1_mdtk1d.png')!important;
+}
 /* css class for the form */
 .project-form{
     margin-bottom: 20px;
