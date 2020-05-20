@@ -1,0 +1,480 @@
+<body>
+    <nav class="navbar navbar-expand-lg " style="background-color:  rgb(27, 27, 27);">
+        <a class="navbar-brand" href="#">
+            <img src="assets/image/zach.PNG" alt="cannot see" class="nav-img" />
+        </a>
+       
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active navbarlist">
+              <a class="nav-link navlink " href= "#home">Home  </a>
+            </li>
+            <li class="nav-item navbarlist">
+              <a class="nav-link navlink" href="#about">About</a>
+            </li>
+            <li class="nav-item navbarlist">
+              <a class="nav-link navlink" href="#service">Service</a>
+            </li>
+            <li class="nav-item navbarlist">
+              <a class="nav-link navlink" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item navbarlist">
+                <a class="nav-link navlink" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item navbarlist">
+                <a class="nav-link navlink" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- this code is for the navbar-social media  and button-->
+        <div class="nav-social navbar-text">
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com" class="nav-social-icon"><i class="fa fa-facebook" style="color: white;"></i></a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com" class="nav-social-icon "><i class="fa fa-linkedin" style="color: white;"></i></a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com" class="nav-social-icon"><i class="fa fa-instagram" style="color: white;"></i></a>
+                </li>
+
+                <li>
+                    <a href="https://www.twitter.com" class="nav-social-icon"><i class="fa fa-twitter" style="color: white;"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-btn navbarbtn" style="padding-right: 5%; display: block;">
+            <a href="" class="btn btn-primary button-primary navbarbtn ">BUY NOW </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+         aria-expanded="false" aria-label="Toggle navigation" style="color: white;">
+            <span class="navbar-toggler-icon togglericon"></span>
+        </button>
+    </nav>
+    
+    <section class="sectionhome container-fluid" id="home">
+        <div class="sectionfirst ">
+            <p>WELCOME TO MY WORLD</p>
+            <div >Hi, I'm Temitope</div>
+            
+                <swiper [config]="configTop" [(index)]="index" class="swiper">
+                    <div class="swiper-slide swiper-lazy">frontend developer</div>
+                    <div class="swiper-slide swiper-lazy">creative thinker</div>
+                </swiper>
+            
+            <div style="position:relative; top:-90px">based in Nigeria.</div>
+        </div> 
+    </section>
+
+    <!-- code for about me page -->
+    <div class="container-fluid active-dark" id="about" >
+       <div class="container" style="padding: 10% 0% 10% 0%; color: white;">
+            <div class="row">
+                <div class="col-lg-5 about-image">
+                    <img src="assets/image/aboutimg.PNG" alt="cannotsee" />
+                </div>
+                <div class="col-lg-7">
+                    <div class="header">
+                        <h1 class="">about me</h1>
+                        <p >There are many variations of passages of Lorem Ipsum available,
+                            but the majority have suffered <a href= "">alteration</a>in some form, by injected humour, 
+                            or randomised words which dont look even slightly believable. If you are going to use a passage
+                            of Lorem Ipsum,
+                        </p>
+                    </div>
+                    
+                    <ul class="nav nav-pills" style="padding: 0%; margin: 0%">
+                        <li class="nav-item">
+                          <a class="nav-link active about-link" data-toggle="tab" href="#home">Main skills </a>
+                          
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link about-link" data-toggle="tab" href="#menu1">Awards </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link about-link" data-toggle="tab" href="#menu2">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link about-link" data-toggle="tab" href="#menu3">Education & Certification</a>
+                          </li>
+                    </ul> 
+                    <div class="tab-content about-tab-content">
+                        <div id="home" class="container tab-pane active"><br>
+                            <p><a href="">User experience design - UI/UX</a>
+                            <br />Delight the user and make it work.
+                            </p>
+
+                            <p>
+                                <a href="">Web and user interface design - Development</a>
+                                <br />Websites, web experiences, ...
+                            </p>
+
+                            <p>
+                                <a href="">Interaction design - Animation</a>
+                                <br />I like to move it move it.
+                            </p>
+                        </div>
+                        <div id="menu1" class="container tab-pane fade"><br>
+                            <p><a href="">Awwwards.com - Winner</a>
+                                <br />2019 - 2020
+                            </p>
+
+                            <p><a href="">CSS Design Awards - Winner</a>
+                                <br />2017 - 2018
+                            </p>
+
+                            <p><a href="">Design nominees - site of the day</a>
+                                <br />2013- 2014
+                            </p>
+                        </div>
+                        <div id="menu2" class="container tab-pane fade"><br>
+                            <p>
+                                <a href="">Sr. Front-end Engineer - Google</a>
+                                <br />2018 - Current
+                            </p>
+
+                            <p>
+                                <a href="">Front-end Engineer - Microsoft</a>
+                                <br />2017 - 2018
+                            </p>
+
+                            <p>
+                                <a href="">Software Engineer - Alibaba </a>
+                                <br />2013- 2014
+                            </p>
+                        </div>
+                        <div id="menu3" class="container tab-pane fade"><br>
+                            <p>
+                                <a href="">BSc In CSE - ABC University, Los Angeles, CA</a>
+                                <br />2010
+                            </p>
+
+                            <p>
+                                <a href="">Diploma in Computer Science - Gamma Technical Institute</a>
+                                <br />2009
+                            </p>
+
+                            <p>
+                                <a href="">Graphic Designer - ABC Institute, Los Angeles, CA</a>
+                                <br />2007
+                            </p>
+                        </div>
+                    </div>
+                </div> 
+            </div>     
+        </div>
+    </div>
+
+    <!-- html code for services start here  -->
+    <!-- from line 153 to line 228 -->
+    <div class="container-fluid text-center  services" style="background: black; " id="service">
+        <div class="" style="padding: 0% 3% 10% 3%;" >
+            <div class="header">
+                <h1>My Awesome Service</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but the <br />majority have suffered alteration.</p>
+            </div>
+            <div class="container">
+                <div class="row" style="padding-bottom: 30px;">
+                    <div class="col-sm-4">
+                      <div class="card text-left servicecol active-dark">
+                        <div class="card-body servicecard" style="padding: 18% 10% 18% 10%; ">
+                            <i class="fa fa-address-card-o service-fontawesome" aria-hidden="true"></i>
+                          <h5 class="card-title">Business Strategy</h5>
+                          <p class="card-text">I throw myself down among the tall grass by the stream as i lie close to the earth</p>                  
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="image">
+                        <div class="card text-left servicecol" >
+                          <div class="card-body servicecard" style="padding: 18% 10% 18% 10%; ">
+                            <i class="fa fa-calendar service-fontawesome" aria-hidden="true"></i>
+                            <h5 class="card-title">Website Development</h5>
+                            <p class="card-text">I throw myself down among the tall grass by the stream as i lie close to the earth</p>                  
+                          </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card text-left servicecol" >
+                            <div class="card-body servicecard" style="padding: 18% 10% 18% 10%; ">
+                                <i class="fa fa-male service-fontawesome" aria-hidden="true"></i>
+                            <h5 class="card-title">Business Strategy</h5>
+                            <p class="card-text">I throw myself down among the tall grass by the stream as i lie close to the earth</p>                  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card text-left servicecol">
+                            <div class="card-body servicecard" style="padding: 18% 10% 18% 10%; ">
+                                <i class="fa fa-television service-fontawesome" aria-hidden="true"></i>
+                            <h5 class="card-title">Business Strategy</h5>
+                            <p class="card-text">I throw myself down among the tall grass by the stream as i lie close to the earth</p>                  
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card text-left servicecol">
+                            <div class="card-body servicecard" style="padding: 18% 10% 18% 10%; ">
+                                <i class="fa fa-male service-fontawesome" aria-hidden="true"></i>
+                            <h5 class="card-title">Business Strategy</h5>
+                            <p class="card-text">I throw myself down among the tall grass by the stream as i lie close to the earth</p>                  
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card text-left servicecol" >
+                            <div class="card-body servicecard" style="padding: 18% 10% 18% 10%; ">
+                                <i class="fa fa-television service-fontawesome" aria-hidden="true"></i>
+                            <h5 class="card-title">Business Strategy</h5>
+                            <p class="card-text">I throw myself down among the tall grass by the stream as i lie close to the earth</p>                  
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Project begins here -->
+    <div class="container-fluid " id="portfolio">
+        <div class="" style="padding-bottom: 10%;" style="padding: 0% 3% 10% 3%;" >
+            <div class="header text-center">
+                <h1>My latest Project</h1>
+                <p>There are many variations of passages of Lorem Ipsum available, but the<br /> majority have suffered alteration.</p>
+            </div>
+            <div class="container text-center" >
+                <div class="row">
+                    <div class="col-sm-4" style="padding-bottom: 30px;">
+                      <div class="card text-center projectcol" style="background: none;">
+                        <div class="card-body projectcard" style="padding: 18% 10% 18% 10%; width:100%; height: 100;background: url('https://res.cloudinary.com/aitechma/image/upload/v1589918695/project1_ksuw72.png');">    
+                            <div class="projecttext" style="padding-top: 60%;">
+                                <p class="card-text">Development</p> 
+                                <h5 class="card-title">Getting ticket to the big show</h5>
+                                <div class="project-button">
+                                    <button type="button" class="btn btn-primary button-primary">VIEW DETAILS</button>
+                                </div>
+                            </div>              
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4" style="padding-bottom: 30px;">
+                        <div class="card text-center projectcol" style="background: none;">
+                          <div class="card-body projectcard projectcard2" style="padding: 18% 10% 18% 10%; background: url('https://res.cloudinary.com/aitechma/image/upload/v1589918677/project2_vpetah.png') ;width:100%; height: 100 ">
+                              <div class="projecttext" style="padding-top: 60%;">
+                                  <p class="card-text">Development</p> 
+                                  <h5 class="card-title">Getting ticket to the big show</h5>
+                                  <div class="project-button">
+                                      <button type="button" class="btn btn-primary button-primary">VIEW DETAILS</button>
+                                  </div>
+                              </div>              
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4" style="padding-bottom: 30px;">
+                        <div class="card text-center projectcol" style="background: none;">
+                          <div class="card-body projectcard projectcard3" style="padding: 18% 10% 18% 10%; background: url('https://res.cloudinary.com/aitechma/image/upload/v1589918667/project3_fwyird.png') ;width:100%; height: 100 ">
+                              <div class="projecttext" style="padding-top: 60%;">
+                                  <p class="card-text">Development</p> 
+                                  <h5 class="card-title">Getting ticket to the big show</h5>
+                                  <div class="project-button">
+                                      <button type="button" class="btn btn-primary button-primary">VIEW DETAILS</button>
+                                  </div>
+                              </div>              
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4" style="padding-bottom: 30px;">
+                        <div class="card text-center projectcol projectcard4" style="background: none;">
+                        <div class="card-body projectcard" style="padding: 18% 10% 18% 10%; background: url('https://res.cloudinary.com/aitechma/image/upload/v1589918673/project4_t9dp7k.png') ;width:100%; height: 100 ">
+                            <div class="projecttext" style="padding-top: 60%;">
+                                <p class="card-text">Development</p> 
+                                <h5 class="card-title">Getting ticket to the big show</h5>
+                                <div class="project-button">
+                                    <button type="button" class="btn btn-primary button-primary">VIEW DETAILS</button>
+                                </div>
+                            </div>              
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4" style="padding-bottom: 30px;">
+                        <div class="card text-center projectcol " style="background: none;">
+                        <div class="card-body projectcard projectcard3" style="padding: 18% 10% 18% 10%; background: url('https://res.cloudinary.com/aitechma/image/upload/v1589918667/project3_fwyird.png') ;width:100%; height: 100 ">
+                            <div class="projecttext" style="padding-top: 60%;">
+                                <p class="card-text">Development</p> 
+                                <h5 class="card-title">Getting ticket to the big show</h5>
+                                <div class="project-button">
+                                    <button type="button" class="btn btn-primary button-primary">VIEW DETAILS</button>
+                                </div>
+                            </div>              
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4" style="padding-bottom: 30px;">
+                        <div class="card text-center projectcol" style="background: none;">
+                        <div class="card-body projectcard projectcard4" style="padding: 18% 10% 18% 10%; background: url('https://res.cloudinary.com/aitechma/image/upload/v1589918673/project4_t9dp7k.png') ;width:100%; height: 100 ">
+                            <div class="projecttext" style="padding-top: 60%;">
+                                <p class="card-text">Development</p> 
+                                <h5 class="card-title">Getting ticket to the big show</h5>
+                                <div class="project-button">
+                                    <button type="button" class="btn btn-primary button-primary">VIEW DETAILS</button>
+                                </div>
+                            </div>              
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <p><button type="btn" class="btn btn-primary button-primary1">VIEW MORE</button> </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- codes for latest news starts here -->
+    <div class="container-fluid" style="background-color: black;" id="blog">
+        <div class="text-center" style="padding: 0% 3% 10% 3%;">
+            <div class="header">
+                <h1>latest news</h1>
+                <p>There are many variations of passages of Lorem Ipsum available,<br />
+                    but the majority have suffered alteration.
+                </p>
+            </div>
+            <div class="container text-center" >
+                <div class="row">
+                    <div class="col-sm-4" style="padding-bottom: 30px;">
+                      <div class="card text-center projectcol" style="background: none;">
+                        <div class="card-body projectcard" style="padding: 18% 10% 18% 10%; width:100%; height: 100;background: url('/assets/image/project1.PNG');">    
+                            <div class="projecttext" style="padding-top: 60%;">
+                                <p class="card-text">Development</p> 
+                                <h5 class="card-title">Getting ticket to the big show</h5>
+                                <div class="project-button">
+                                    <button type="button" class="btn btn-primary button-primary">VIEW DETAILS</button>
+                                </div>
+                            </div>              
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-4" style="padding-bottom: 30px;">
+                        <div class="card text-center projectcol" style="background: none;">
+                          <div class="card-body projectcard" style="padding: 18% 10% 18% 10%; width:100%; height: 100;background: url('/assets/image/project1.PNG');">    
+                              <div class="projecttext" style="padding-top: 60%;">
+                                  <p class="card-text">Development</p> 
+                                  <h5 class="card-title">Getting ticket to the big show</h5>
+                                  <div class="project-button">
+                                      <button type="button" class="btn btn-primary button-primary">VIEW DETAILS</button>
+                                  </div>
+                              </div>              
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4" style="padding-bottom: 30px;">
+                        <div class="card text-center projectcol" style="background: none;">
+                          <div class="card-body projectcard" style="padding: 18% 10% 18% 10%; width:100%; height: 100;background: url('/assets/image/project1.PNG');">    
+                              <div class="projecttext" style="padding-top: 60%;">
+                                  <p class="card-text">Development</p> 
+                                  <h5 class="card-title">Getting ticket to the big show</h5>
+                                  <div class="project-button">
+                                      <button type="button" class="btn btn-primary button-primary">VIEW DETAILS</button>
+                                  </div>
+                              </div>              
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    
+
+    </div>
+
+    <!-- end of news code next phase is -->
+    <div class="container-fluid" id="contact">
+        <div class="" style="padding: 0% 3% 10% 3%;">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="header" >
+                        <h1 style="padding-top: 15%;">Hire me.</h1>
+                        <p class="text-left">I am available for freelance work. Connect with me via phone: 01923 088574 or email: admin@example.com</p>
+                    </div>
+
+                    <form><div class="row">
+                        <div class="col-12  form-row">
+                            <div class="col-md-12"><input type="text" placeholder="Your Name *" class="form-control project-form" name="facebook" ></div>
+
+                            <div class="col-md-12"><input type="email" placeholder=" Your Email *" class="form-control  project-form" name="twitter"></div>
+                        
+
+                            <div class="col-md-12"><input type="text" placeholder="Write a Subject" class="form-control project-form" name="instagram"></div>
+                            <div class="text-area  col-md-12" >
+                                <textarea class="form-control project-form text-area" id="exampleFormControlTextarea3" rows="7" placeholder="Your Message" 
+                                name="textarea"></textarea>
+                            </div>
+                            
+                            <div class="col-md-3" style="padding-top: 20px;"><button type="btn" class=" btn btn-primary button-primary1">SUBMIT</button></div>
+
+                        </div>
+                    </div></form>
+
+                </div>
+                <div class="col-md-6 ">
+                    <div class="header" style="padding-top: 25%">
+                        <img src="https://res.cloudinary.com/aitechma/image/upload/v1589918664/background_flxzdh.png" alt="cannot see" class="last-image" />
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer code begins here -->
+    <div class="container-fluid" style="background-color: rgb(17, 17, 17);">
+        <div class="text-center footer" style="padding: 3% 2% 2% 3%; display:block;">
+            <div class="row align-items-center justify-conetent-between">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="text-center text-sm-left mb_sm--20">
+                        <img src="http://trydo.rainbowit.net/assets/images/logo/logo.png" alt="cannot see" />
+                    </div>
+                    
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 text-right" style=" display: block;" >
+                    <div class="text-center">
+                        <ul class="social-links rn-lg-size d-flex justify-content-center liststyle">
+                            <li><a href="https://www.facebook.com"><i class="fa fa-facebook fontawesome" ></i> </a> </li>
+                            <li><a href="https://www.linkedin.com"><i class="fa fa-linkedin fontawesome" ></i> </a>  </li>
+                            <li><a href="https://www.instagram.com"><i class="fa fa-instagram fontawesome" ></i> </a> </li>
+                            <li><a href="https://www.twitter.com"><i class="fa fa-twitter fontawesome" ></i> </a> </li>
+                        </ul>
+                    </div>
+                   
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class=" text-lg-right text-center mt_md--20 mt_sm--20">
+                        <p>copyright &copy; 2020 Rainbow themes - All rights Reserved</p>
+                    </div>
+               </div> 
+            </div>
+        </div>
+    </div>
+    <!-- <div>👆</div> -->
+
+    <button *ngIf="isShow" (click)="gotoTop()" class="scroll-top"> <i class="fa fa-chevron-up scroll-icon" aria-hidden="true"></i>
+    </button>
+</body>

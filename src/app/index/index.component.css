@@ -1,0 +1,294 @@
+/* general styling starts here */
+body{
+    background-color: rgb(27, 27, 27);
+    padding-top: 25px;
+    color: white;
+    height: auto;
+    margin: auto;
+}
+.header{
+    padding: 10% 0% 4% 0%;
+}
+.header h1{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial black;
+    font-size: 60px;
+}
+.header p{
+    color: rgba(198,201,216,.75);
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.button-primary{
+    background-color: transparent;
+    border: 2px solid rgb(189, 186, 186);
+    font-size: 15px;
+    padding: 5px 20px 5px 20px;
+    position: relative
+}
+.button-primary:hover{
+    background-color: #f9004d;
+    border: none;
+    top: -2px;
+    padding: 7px 20px 7px 20px;
+    margin-top: -5px!important;
+}
+.button-primary1{
+    top: 5px;
+    background-color: #f9004d;
+    color: white;
+    padding: 15px 45px 15px 45px;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: relative;
+}
+.button-primary1:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    top: -2px;
+    color: #f9004d;
+}
+.projectcol{
+    position: relative;
+    border-radius: 4%;
+    background-color:none;
+}
+/* general styling ends here */
+
+/* navbar styling starts here */
+.navbar{
+position: sticky;
+top: 0;
+left: 0;
+width: 100%;
+background-color: gray;
+z-index: 1;
+}
+.nav-img{
+    border-radius: 50%;
+}
+.navlink{
+    color: white;
+    padding: 0px 15px 0px 15px!important;
+}
+/* .navlink.active, .navlink:focus, .navlink:hover{
+    color:#f9004d;    
+} */
+.navbar-nav>li.active>a, .navbar-nav>li a:hover, .navbar-nav>li a:focus{
+    color:#f9004d;
+}
+/* .navbar-nav>.navlink.active>a.focus{
+    color:red!important;
+} */
+.nav-social{
+    display: block;
+    margin: 20px 6% 0px 0px;
+}
+.nav-social li{
+    display: inline;
+}
+.nav-social-icon{
+    padding: 15px ;
+    position: relative
+}
+.nav-social-icon:hover{
+    margin-top: 5px!important;
+    top: -5px!important;
+}
+/* navbar styling ends here */
+.sectionhome{
+    background: url('https://res.cloudinary.com/aitechma/image/upload/v1589918698/bc_dsjayz.png')center/cover no-repeat;
+    min-height: 200px;
+}
+.sectionfirst p{
+    color: rgba(198,201,216,.75);
+    letter-spacing: 2px;
+}
+
+.sectionfirst div{
+    font-family: Arial black;
+    font-weight: bold;
+    font-size: 50px;
+}
+.sectionfirst{
+    padding: 10% 3% 3% 5%;
+}
+.about-link{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white; 
+    text-decoration: 2px underline; 
+}
+.about-link.active{
+    background: transparent;
+    color:#f9004d;
+    padding-bottom: 10px;
+    /* border-bottom: 2px solid #f9004d; */
+    text-decoration: none;
+    text-decoration: 2px underline;
+}
+.about-tab-content a{
+    text-decoration: none;
+    color:rgba(198,201,216,.75);
+}
+.about-tab-content p{
+    color: rgba(198,201,216,.75);
+    line-height: 30px;
+}
+
+/* css for sservice */
+.servicecol {
+    position: relative;
+    border-radius: 4%;
+    background-color: rgb(27, 27, 27);
+}
+
+.servicecard {
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+color: white;
+}
+.service-fontawesome{
+    color: #f9004d;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+.servicecard h5{
+    padding-bottom: 10px;
+    
+}
+.servicecard p{
+    line-height: 30px;
+    color:rgba(198,201,216,.75);
+    font-size: 20px;
+}
+.servicecol:hover{
+position: relative;
+top: -7px;
+border-radius: 4%;
+}
+.servicecol:hover .servicecard {
+background: -webkit-linear-gradient(to right, #f13838, #a10909, #ff0202);
+  background: linear-gradient(to right, #ee1707, #ee2424, #e20c82);
+position: relative;
+border-radius: 4%;
+}
+
+ /* css class for project page */
+
+.projectcard{
+    opacity: 1;
+    display: block;
+    width: 97%;
+    height: auto;
+    transition: .7s ease;
+    border-radius: 7px !important;
+    backface-visibility: hidden;
+    transition: transform .2s;      
+}
+.projectcard:hover {
+    transform: scale(1.1);
+    background:  linear-gradient(180deg, rgba(219, 10, 91, 1), rgba(240, 7, 7, 0.443)),url('https://res.cloudinary.com/aitechma/image/upload/v1589918695/project1_ksuw72.png')!important;
+    opacity: 3;
+    width: 100%;
+}
+.projectcard2:hover{
+    background: linear-gradient(180deg, rgba(219, 10, 91, 1), rgba(240, 7, 7, 0.443)),url('https://res.cloudinary.com/aitechma/image/upload/v1589918677/project2_vpetah.png')!important;
+}
+.projectcard3:hover{
+    background: linear-gradient(180deg, rgba(219, 10, 91, 1), rgba(240, 7, 7, 0.443)),url('https://res.cloudinary.com/aitechma/image/upload/v1589918667/project3_fwyird.png')!important;
+}
+.projectcard4:hover{
+    background: linear-gradient(180deg, rgba(219, 10, 91, 1), rgba(240, 7, 7, 0.443)),url('https://res.cloudinary.com/aitechma/image/upload/v1589918673/project4_t9dp7k.png')!important;
+}
+
+/* css class for the form */
+.project-form{
+    margin-bottom: 20px;
+    height: 50px;
+    border: 2px solid rgb(94, 93, 93);
+    border-radius: 5px;
+    background-color: transparent;
+}
+.project-form:focus{
+    border: 2px solid rgb(94, 93, 93); 
+       
+}
+/* css class for form ends here */
+.text-area{
+    height: 120px;
+}
+.last-image{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 2%;
+}
+
+.swiper{
+    overflow: hidden;
+    height: 50px!important;
+    color: red;
+}
+
+.scroll-top{
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    background: transparent;
+    border: none;    
+}
+.scroll-top:hover{
+    bottom: 18px;
+}
+
+.scroll-icon{
+    color: white;
+    background: black;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 20px;
+    position: relative;
+}
+
+.scroll-icon:hover{
+    background: #f9004d;
+}
+.fontawesome{
+    padding: 15px;
+    color: rgba(198,201,216,.75);
+    border: 2px solid rgb(112, 110, 110);
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 0px 5px 0px 5px;
+}
+
+.fontawesome:hover{
+    background-color: #f9004d;
+    border: 1px solid #f9004d;  
+}
+@media screen and (max-width: 1000px){
+    .navbarbtn{
+        display: none;
+    }
+    .about-image{
+        text-align: center;
+    }
+  
+    /*  */
+}
