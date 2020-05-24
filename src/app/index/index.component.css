@@ -108,7 +108,7 @@ z-index: 1;
 }
 /* navbar styling ends here */
 .sectionhome{
-    background: url('https://res.cloudinary.com/aitechma/image/upload/v1589918698/bc_dsjayz.png')center/cover no-repeat;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.443), rgba(0, 0, 0, 0.443)), url('https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921__340.jpg')center/cover no-repeat;
     min-height: 200px;
 }
 .sectionfirst p{
